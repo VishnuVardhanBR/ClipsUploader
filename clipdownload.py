@@ -12,7 +12,7 @@ def clipdownload(link, DIRECTORY):
 
 
     headers = {
-        'Client-ID': 'vbxhgeha0ownq9ycjx4nyiy1d78ga3',
+        'Client-ID': '',
         'Accept': 'application/vnd.twitchtv.v5+json'
 
     }
