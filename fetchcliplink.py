@@ -3,7 +3,7 @@ import praw
 
 #fetches 1 clip thats above 1000 upvotes; return type = list
 def fetchcliplink(links, SUBREDDIT = "LivestreamFail"):
-    reddit = praw.Reddit(client_id='VZkMdSXZhyy-ow', client_secret='W1baXZL5IF98-GGhNiaXiYIadnZrGw', user_agent='mainBot')
+    reddit = praw.Reddit(client_id='VZkMdSXZhyy-ow', client_secret='', user_agent='mainBot')
     subreddit = reddit.subreddit(SUBREDDIT)
 
     for post in subreddit.top("day"):#, limit = 5):
