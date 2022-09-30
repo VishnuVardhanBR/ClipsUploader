@@ -1,2 +1,2 @@
 # ClipsUploader
-Upload Twitch livestream clips to YouTube channel.
+Upload livestream clips to a video hosting website.
